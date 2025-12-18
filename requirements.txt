@@ -1,9 +1,6 @@
-numpy==1.15.2
-scikit-image==0.14.0
-torch
-torchvision
-pillow==8.1.1
-opencv-python
-paddlepaddle
-paddlehub
-gradio
+torch==2.0.1
+torchvision==0.15.2
+Pillow==9.5.0
+numpy==1.26.4
+scikit-image==0.19.3
+opencv-python-headless
