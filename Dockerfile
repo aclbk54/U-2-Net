@@ -12,6 +12,8 @@ ENV VIRTUAL_ENV=/opt/venv
 RUN python3 -m venv $VIRTUAL_ENV
 ENV PATH="$VIRTUAL_ENV/bin:$PATH"
 
+RUN pip install --upgrade pip && \
+    pip install wheel "setuptools<70.0.0"
 
 COPY requirements.txt .
 RUN pip install --no-cache-dir -r requirements.txt
