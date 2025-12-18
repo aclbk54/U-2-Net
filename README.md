@@ -8,4 +8,4 @@ git clone https://github.com/aclbk54/U-2-Net.git
 docker build -t U2Net_test
 
 
-docker run --rm -v "$(pwd)/data:/app/data" u2net-test
+docker run --rm -v "$(pwd)/data:/app/data" U2Net_test
