@@ -6,4 +6,6 @@ git clone https://github.com/aclbk54/U-2-Net.git
 и положить в папку saved_models файл .pth
 
 docker build -t U2Net_test
+
+
 docker run --rm -v "$(pwd)/data:/app/data" u2net-test
