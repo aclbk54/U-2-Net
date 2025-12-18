@@ -1,3 +1,8 @@
+ОРигинальный репозиторий:
+
+https://github.com/xuebinqin/U-2-Net
+
+
 Клонировать репозиторий:
 git clone https://github.com/aclbk54/U-2-Net.git
 
